@@ -1,21 +1,27 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 header .advertising {
-    text-align: center;
     padding-bottom: 30px;
+    text-align: center;
 }
 
-header .advertising .advertising-img {
+header .advertising .advertisingImg {
     width: 1000px;
     height: auto;
 }
 
 header nav {
+    position: relative;
+    padding: 20px;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
-    padding: 20px;
-    position: relative;
 }
 
-header nav .nav-icons {
+header nav .navIcons {
     height: 25px;
     width: auto;
 }
@@ -23,9 +29,9 @@ header nav .nav-icons {
 header nav ul {
     display: inline;
     position: absolute;
+    margin-left: 20px;
     top: 25px;
     word-spacing: 25px;
-    margin-left: 20px;
 }
 
 header nav ul li {
@@ -33,4 +39,48 @@ header nav ul li {
     color: #333;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
+}
+
+main {
+    float: left;
+    padding: 20px 50px;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+main .newsContainerLeft {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    height: 200px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+
+}
+
+main .newsContainerRight {
+    float: right;
+    padding: 10px;
+    width: 30%;
+    height: 200px;
+    background-color: chartreuse;
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+}
+
+main:first-child {
+    text-align: center;
+}
+
+main div {
+    text-align: center;
+    font-size: 50px;
+    color: orange;
 }
