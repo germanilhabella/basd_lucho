@@ -1,0 +1,36 @@
+header .advertising {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header .advertising .advertising-img {
+    width: 1000px;
+    height: auto;
+}
+
+header nav {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 20px;
+    position: relative;
+}
+
+header nav .nav-icons {
+    height: 25px;
+    width: auto;
+}
+
+header nav ul {
+    display: inline;
+    position: absolute;
+    top: 25px;
+    word-spacing: 25px;
+    margin-left: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    color: #333;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
